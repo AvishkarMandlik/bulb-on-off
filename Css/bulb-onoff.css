@@ -1,0 +1,17 @@
+.card{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bulb-png{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
