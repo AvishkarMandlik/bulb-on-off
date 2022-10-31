@@ -1,32 +1,70 @@
-.card{
-    width: 400px;
-    height: 450px;
-    border: 1px solid red;
+body {
+    background-color: #4c4119;
+    background-image: linear-gradient(180deg, #4c4119 37%, #35311b 62%)
+}
+
+.card {
+    width: 99%;
+    height: 590px;
+    border: 3px dashed orange;
     display: block;
     margin: auto;
 }
 
-.bulb-png{
+.card-dark {
+    background-color: #4c4119;
+    background-image: linear-gradient(180deg, #4c4119 37%, #35311b 62%)
+}
+
+.card-light {
+    background-color: #251d0e;
+    background-image: linear-gradient(0deg, #251d0e 25%, #886929 52%, #ede409 77%);
+}
+
+.bulb-png {
     width: 350px;
     display: block;
     margin: auto;
+    margin-top: 40px;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
-.btn{
-    border: 2px solid #F39408;
-    border-radius: 8px;
-    width: 80px;
+.btn {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 90px;
     font-weight: bold;
     font-size: 20px;
     color: #020024;
+    height: 50px;
+    background-color: #ffdd99;
+    box-shadow: #524c4c 2px -2px 5px 4px;
+}
+
+#btn-on:hover {
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #eb9c1d 64%, #524c4c 100%);
-    height: 50px;
+    cursor: pointer;
+}
+
+#btn-off:hover {
+    background-color: #a28536;
+    background-image: linear-gradient(163deg, #a28536 27%, #292212 100%);
+    cursor: pointer;
+}
+
+.btn-on {
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #eb9c1d 64%, #524c4c 100%);
+}
+
+.btn-off {
+    background-color: #a28536;
+    background-image: linear-gradient(163deg, #a28536 27%, #292212 100%);
 }

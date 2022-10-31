@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-<title>Bulb On/Off (usingJS)</title>
-<link rel="stylesheet" href="./css/bulb-onoff.css" />
-<script src="./javascript/bulb-onoff.js"></script>
+<head>
+    <title>Bulb On/Off (usingJS)</title>
+
+        <link rel="stylesheet" href="./css/bulb-onoff.css" />
+        
+        <script src="./javascript/bulb-onoff.js"></script>
 </head>
 
 <body>
     <div class="card">
-        <img src="./images/bulb-off.png" id="bulb" class="bulb-png"/>
-    <div class="btn-container">
-        <button class="btn" onclick="bulbOn()">Bulb ON</button>
-        <button class="btn" onclick="bulbOff()">Bulb OFF</button>
+        <img src="./images/bulb-off.png" id="bulb" class="bulb-png" />
+        <div class="btn-container">
+            <button class="btn" id="btn-on" onclick="bulbOn()">Bulb ON</button>
+            <button class="btn" id="btn-off" onclick="bulbOff()">Bulb OFF</button>
+        </div>
     </div>
-</div>
 </body>
 
 </html>
