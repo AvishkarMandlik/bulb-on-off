@@ -1,6 +1,13 @@
 .card{
     width: 400px;
-    height: 400px;
+    height: 450px;
+    border: 1px solid red;
+    display: block;
+    margin: auto;
+}
+
+.bulb-png{
+    width: 350px;
     display: block;
     margin: auto;
 }
@@ -8,10 +15,18 @@
 .btn-container{
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
+    margin-top: 30px;
 }
 
-.bulb-png{
-    width: 350px;
-    display: block;
-    margin: auto;
+.btn{
+    border: 2px solid #F39408;
+    border-radius: 8px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #020024;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #eb9c1d 64%, #524c4c 100%);
+    height: 50px;
 }
